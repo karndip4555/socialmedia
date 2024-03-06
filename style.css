@@ -7,16 +7,17 @@ body {
    
 }
 .mainbackdiv {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 54.3em;
-    width: 85.9rem;
+    /* width: 85.9rem; */
+
     display: flex;
     justify-content: center;
     align-items: center;
     /* flex-wrap: wrap; */
     overflow: hidden;
     /* position: fixed; */
-    position: absolute;
+    /* position: relative; */
 }
 .centerdiv{
     /* border: 2px solid yellow; */
@@ -28,6 +29,8 @@ body {
     background-color: rgba(32, 30, 30, 0.877);
     display: inline-block;
     border-radius: 10px;
+    /* position: relative; */
+    overflow: hidden;
 
 }
 .centerdiv img{
@@ -75,6 +78,7 @@ body {
  align-items: center;
  gap: 15px;
  /* border: 2px solid red; */
+ position: relative;
  
  
    
@@ -93,3 +97,13 @@ body {
     color: white;
 
 }
+/* @media screen and (min-width: 320px) {
+    .centerdiv .button .button1 {
+        width: 70vw;
+    }
+@media screen and (max-width: 768px) {
+    .centerdiv .button .button1 {
+        width: 60vw;
+    }
+}
+} */
