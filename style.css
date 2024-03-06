@@ -1,0 +1,95 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+   
+}
+.mainbackdiv {
+    /* border: 2px solid red; */
+    height: 54.3em;
+    width: 85.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    /* position: fixed; */
+    position: absolute;
+}
+.centerdiv{
+    /* border: 2px solid yellow; */
+    height: 40rem;
+    width: 30rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(32, 30, 30, 0.877);
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.centerdiv img{
+   
+    border-radius: 50%;
+    height: 100px;
+    /* border: 2px solid yellow; */
+   
+   
+}
+.centerdiv .image {
+    /* border: 2px solid red; */
+    margin-top: 10px;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+.centerdiv .heading {
+   color: rgba(255, 255, 255, 0.889);
+   display: flex;
+   justify-content: center;
+   /* border: 2px solid red; */
+   height: 50px;
+   font-size: 20px;
+}
+.centerdiv .para1 {
+    color: greenyellow;
+    /* align-items: center */
+    display: flex;
+   
+    justify-content: center;
+    
+
+}
+.centerdiv .para2 {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.839);
+
+}
+.centerdiv .button {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+ /* border: 2px solid red; */
+ 
+ 
+   
+}
+
+.centerdiv .button .button1 {
+    cursor: pointer;
+    background-color: rgba(66, 63, 63, 0.466);
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    width: 30vw;
+    border: none;
+   
+    color: white;
+
+}
